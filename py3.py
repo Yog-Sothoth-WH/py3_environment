@@ -12,4 +12,4 @@ os.system('make && make install')
 os.system('ln -s /usr/local/python3/bin/python3 /usr/bin/python3')
 os.system('ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3')
 
-os.system('pip install requests')
+os.system('pip3 install requests')
