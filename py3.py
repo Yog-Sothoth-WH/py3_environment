@@ -6,7 +6,7 @@ os.system('wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz && m
 
 os.system('tar -xvJf Python-3.6.2.tar.xz')
 os.chdir('Python-3.6.2')
-
+os.system('./configure --prefix=/usr/local/python3')
 os.system('make && make install')
 
 os.system('ln -s /usr/local/python3/bin/python3 /usr/bin/python3')
